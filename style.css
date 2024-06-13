@@ -1,3 +1,25 @@
 body {
+    display: grid;
+    background-color: rgb(66, 172, 175);
+    grid-template-columns: repeat(4, 670px);
+    grid-template-rows: repeat(10,150px);
+}
+
+.rightside {
+    grid-area: 1 / 1 / 11 / 2;
+    background-color: aqua;
+}
+
+.topside {
+    grid-area: 1 / 2 / 3 / 5 ;
+    background-color: cadetblue;
+}
+
+.bottomside {
+    grid-area: 3 / 2 / -1/ 5;
+    background-color: cornflowerblue;
+}
+.bottomright {
+    grid-area: 3/ 4/ -1/ 5;
     background-color: bisque;
 }
