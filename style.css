@@ -2,31 +2,26 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    background-color: rgb(66, 172, 175);
-    grid-template-columns: repeat(4, 400px);
-    grid-template-rows: repeat(10,100px);
+    background-color: rgb(53, 217, 223);
+    grid-template-columns: 15vw 28vw 28vw 28vw;
+    grid-template-rows: repeat(10,10vh);
 }
 
 .rightside {
     grid-area: 1 / 1 / 11 / 2;
     background-color: aqua;
-    height: 100vh;
 }
 
 .topside {
-    width: 100vw;
     grid-area: 1 / 2 / 3 / 5 ;
     background-color: cadetblue;
 }
 
 .bottomside {
-    height: 100vh;
     grid-area: 3 / 2 / -1/ 5;
     background-color: cornflowerblue;
 }
 .bottomright {
-    width: 100vw;
-    height: 100vh;
     grid-area: 3/ 4/ -1/ 5;
     background-color: bisque;
 }
