@@ -3,7 +3,7 @@
     height: 100vh;
     display: grid;
     background-color: rgb(53, 217, 223);
-    grid-template-columns: 15vw 28vw 28vw 28vw;
+    grid-template-columns: 21vw 26vw 26vw 26vw;
     grid-template-rows: repeat(10,10vh);
 }
 
@@ -24,4 +24,74 @@
 .bottomright {
     grid-area: 3/ 4/ -1/ 5;
     background-color: bisque;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.dashicon {
+    width: 50px;
+    height: 50px;
+}
+
+.dashRapper {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.home {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.profile {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.messages {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.history {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.tasks {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.communities {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.settings {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.support {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
+}
+
+.privacy {
+    display: flex;
+    row-gap: 5px;
+    margin: 10px;
 }
