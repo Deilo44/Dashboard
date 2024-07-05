@@ -9,7 +9,7 @@
 
 .rightside {
     grid-area: 1 / 1 / 11 / 2;
-    background-color: aqua;
+    background-color: rgb(38, 94, 94);
 }
 
 .topside {
